@@ -1,6 +1,6 @@
 # calculate dynamics for quantum many body systems
 
-* 1D transverse field Ising model
+* 1D transverse field Ising model (after sudden quench)
   * Usage
     ```console
     foo@bar:~$ python quench_dynamics_1d_FM_TFIsing.py -N [system size]
