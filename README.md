@@ -7,7 +7,7 @@
     ```
     The result for the system size N=16 is shown as an example.
   * Results
-    * Analitycal and asymptotic results are also given.
+    * Analitycal and asymptotic results in the thermodynamic limit are also given.
 
 ![magnetization (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_1d_FM_TFIsing/fig_mz.png "magnetization (Ising direction)")
 
