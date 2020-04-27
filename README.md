@@ -7,12 +7,13 @@
     ```
     The result for the system size N=16 is shown as an example.
   * Results
+    * Analitycal and asymptotic results are also given.
 
-![magnetization (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_1d_FM_TFIsing/fig_mz.png?token=AGUOPGELR25RRY6ZLCDFEPS6U3QD2 "magnetization (Ising direction)")
+![magnetization (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_1d_FM_TFIsing/fig_mz.png "magnetization (Ising direction)")
 
-![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_1d_FM_TFIsing/fig_mx.png?token=AGUOPGGYLTP2HA6OGLUKEBK6U3QMO "magnetization (field direction)")
+![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_1d_FM_TFIsing/fig_mx.png "magnetization (field direction)")
 
-![logarithmic Loschmidt echo](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_1d_FM_TFIsing/fig_loschmidt_echo.png?token=AGUOPGAMA7CUEMUDWXYPJLK6U3QMQ "logarithmic Loschmidt echo")
+![logarithmic Loschmidt echo](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_1d_FM_TFIsing/fig_loschmidt_echo.png "logarithmic Loschmidt echo")
 
   * References
     * https://doi.org/10.1103/PhysRevLett.106.227203
