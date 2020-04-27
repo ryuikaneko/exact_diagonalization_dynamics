@@ -2,9 +2,9 @@
 
 * 1D transverse field Ising model
   * Usage
-```console
-foo@bar:~$ python quench_dynamics_1d_FM_TFIsing.py -N [system size]
-```
+    ```console
+    foo@bar:~$ python quench_dynamics_1d_FM_TFIsing.py -N [system size]
+    ```
     The result for the system size N=16 is shown as an example.
   * References
     * https://doi.org/10.1103/PhysRevLett.106.227203
