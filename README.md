@@ -21,3 +21,15 @@
     * https://doi.org/10.1088/1742-5468/2012/07/P07022
     * https://doi.org/10.1007/978-3-642-33039-1
     * https://amslaurea.unibo.it/id/eprint/15866 (I followed this notation.)
+
+* 1D transverse field Ising model (slow quench)
+  * Usage
+    ```console
+    foo@bar:~$ python slow_dynamics_1d_FM_TFIsing.py -N [system size]
+    ```
+    The result for the system size N=10 is shown as an example.
+  * Results
+
+![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/slow_dynamics_1d_FM_TFIsing/fig_mx.png "magnetization (field direction)")
+
+![kink density](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/slow_dynamics_1d_FM_TFIsing/fig_kink_density.png "kink density")
