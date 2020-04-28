@@ -6,6 +6,7 @@
     foo@bar:~$ python quench_dynamics_1d_FM_TFIsing.py -N [system size]
     ```
     The result for the system size N=16 is shown as an example.
+    Field: h(t=0)=0 (Ising GS: all up) --> h(t>0)=0.5
   * Results
     * Analitycal and asymptotic results in the thermodynamic limit are also given.
 
@@ -28,6 +29,7 @@
     foo@bar:~$ python slow_dynamics_1d_FM_TFIsing.py -N [system size] -tau [total time]
     ```
     The result for the system size N=10 and the total time tau=32 is shown as an example.
+    Field: h(t)=hi+(hf-hi)*t/tau (hi=2*hc, hf=0, hc=1)
   * Results
 
 ![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/slow_dynamics_1d_FM_TFIsing/fig_mx.png "magnetization (field direction)")
