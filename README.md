@@ -36,6 +36,12 @@
 
 ![kink density](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/slow_dynamics_1d_FM_TFIsing/fig_kink_density.png "kink density")
 
+![scaling of kink density 1](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/slow_dynamics_1d_FM_TFIsing/dat_kinkdens_scaling/fig_kinkdens_vs_inversetau.png "scaling of kink density 1")
+
+![scaling of kink density 2](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/slow_dynamics_1d_FM_TFIsing/dat_kinkdens_scaling/fig_kinkdens_vs_tau_loglog.png "scaling of kink density 2")
+
+    * The kink density is expected to be scaled as (kink density)~1/(tau)^0.5 in the thermodynamic limit.
+
   * References
     * https://doi.org/10.1103/PhysRevLett.95.035701
     * https://doi.org/10.1103/PhysRevLett.95.105701

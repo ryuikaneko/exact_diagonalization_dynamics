@@ -1,0 +1,20 @@
+set term png
+set output "fig_kinkdens_vs_tau_loglog.png"
+
+#set xrange [0:0.5]
+#set yrange [0:]
+set log
+set xlabel "tau"
+set ylabel "kink density"
+set key left bottom at graph 0.1,0.05
+set key invert
+
+p \
+"dat_kinkdens_N4" u 2:3 ti "4", \
+"dat_kinkdens_N6" u 2:3 ti "6", \
+"dat_kinkdens_N8" u 2:3 ti "8", \
+"dat_kinkdens_N10" u 2:3 ti "10", \
+"dat_kinkdens_N12" u 2:3 ti "12", \
+"dat_kinkdens_N14" u 2:3 ti "14", \
+"dat_kinkdens_N16" u 2:3 ti "N=16", \
+0.16*x**(-0.5) ti "~1/sqrt(tau)"
