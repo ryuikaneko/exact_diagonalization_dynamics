@@ -313,7 +313,7 @@ def main():
     fig102 = plt.figure()
     fig102.suptitle("mx0mx1")
     plt.plot(time_steps/vmax/np.pi*4.0,mx0mx1)
-    plt.xlabel("$v_{max}t$")
+    plt.xlabel("$t/(\pi/4)$")
     fig102.savefig("fig_mx0mx1_vs_t.png")
 #
 #    fig3 = plt.figure()
@@ -325,7 +325,7 @@ def main():
     fig103 = plt.figure()
     fig103.suptitle("mz0mz1/$h_f$")
     plt.plot(time_steps/vmax/np.pi*4.0,np.array(mz0mz1,dtype=np.float)/field_f)
-    plt.xlabel("$t/\pi$")
+    plt.xlabel("$t/(\pi/4)$")
     fig103.savefig("fig_mz0mz1_vs_t.png")
 #
 #    fig4 = plt.figure()
@@ -341,7 +341,7 @@ def main():
     plt.plot(time_steps/vmax/np.pi*4.0,mx,label="ED")
     plt.plot(time_steps/vmax/np.pi*4.0,list_m_field,label="Analytical")
     plt.legend(bbox_to_anchor=(1,1),loc='upper right',borderaxespad=1,fontsize=12)
-    plt.xlabel("$t/\pi$")
+    plt.xlabel("$t/(\pi/4)$")
     fig104.savefig("fig_mx_vs_t.png")
 #
 #    fig5 = plt.figure()
@@ -387,7 +387,7 @@ def main():
     if np.abs(field_i)<1e-10: ## when an initial state explicitly breaks Z2 symmetry
         plt.plot(time_steps/vmax/np.pi*4.0,list_log_loschmidt_echo,label="Analytical")
     plt.legend(bbox_to_anchor=(1,1),loc='upper right',borderaxespad=1,fontsize=12)
-    plt.xlabel("$t/\pi$")
+    plt.xlabel("$t/(\pi/4)$")
     fig109.savefig("fig_loschmidt_echo_vs_t.png")
 #
 #    plt.show()
