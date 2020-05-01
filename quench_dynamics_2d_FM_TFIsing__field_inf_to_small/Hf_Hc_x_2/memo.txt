@@ -1,0 +1,1 @@
+python quench_2d_h_inf_to_small.py -hf 6.08876 -tau 2.3 > dat_N4x4_hf6.08876_tau2.3
