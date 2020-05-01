@@ -101,23 +101,43 @@
   foo@bar:~$ python quench_dynamics_2d_FM_TFIsing.py -Lx [size Lx] -Ly [size Ly] -hi [initial field] -hf [final field] -tau [total time]
   ```
   Model: H(t) = - (\sum\_{i} \sigma\_i^z \sigma\_{i+1}^z + h(t) \sum\_{i} \sigma\_i^x) <br>
-  Field: h(t=0)=inf --> h(t>0)=0.1 <br>
+  Field: h(t=0)=inf --> h(t>0)=0.1, hc/10, hc, 2*hc (hc=3.04438) <br>
   The result for the system size N=4x4 is shown as an example.
   
-* References
+* References (h(t=0)=inf --> h(t>0)=0.1)
   
   * https://doi.org/10.21468/SciPostPhys.4.2.013 (See Fig.2 for comparison, note that h'/J'=0.05 <--> h/J=0.1 where J'/4=J and h'/2=h) (neural networks)
+  
+* References (h(t=0)=inf --> h(t>0)=hc/10, hc, 2*hc (hc=3.04438))
+  * https://doi.org/10.1103/PhysRevB.99.035115 (iPEPS)
+  * https://arxiv.org/abs/1912.08828 (neural networks, comparison with iPEPS)
 
 * Other references
   * https://doi.org/10.1038/srep38185 (VMC)
-  * https://doi.org/10.1103/PhysRevB.99.035115 (iPEPS)
   * https://arxiv.org/abs/1811.09275 (MPS)
   * https://arxiv.org/abs/1912.08831 (neural networks, time evolution error)
-  * https://arxiv.org/abs/1912.08828 (neural networks, comparison with iPEPS)
   * (https://doi.org/10.21468/SciPostPhys.6.3.031 (iPEPS, Heisenberg+field))
 
-* Results
+* Results (h(t=0)=inf --> h(t>0)=0.1)
 
 ![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_0.1/fig_mx.png "magnetization (field direction)")
 
 ![nearest neighbor spin correlation (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_0.1/fig_mz0mz1.png "nearest neighbor spin correlation (Ising direction)")
+
+* Results (h(t=0)=inf --> h(t>0)=hc/10 (hc=3.04438))
+
+![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_Hc_x_0.1/fig_mx.png "magnetization (field direction)")
+
+![nearest neighbor spin correlation (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_Hc_x_0.1/fig_mz0mz1.png "nearest neighbor spin correlation (Ising direction)")
+
+* Results (h(t=0)=inf --> h(t>0)=hc (hc=3.04438))
+
+![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_Hc_x_1/fig_mx.png "magnetization (field direction)")
+
+![nearest neighbor spin correlation (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_Hc_x_1/fig_mz0mz1.png "nearest neighbor spin correlation (Ising direction)")
+
+* Results (h(t=0)=inf --> h(t>0)=2*hc (hc=3.04438))
+
+![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_Hc_x_2/fig_mx.png "magnetization (field direction)")
+
+![nearest neighbor spin correlation (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_Hc_x_2/fig_mz0mz1.png "nearest neighbor spin correlation (Ising direction)")
