@@ -1,15 +1,14 @@
 # calculate dynamics for quantum many body systems
 
-## Contents
+# contents
 
-* [1D transverse field Ising model (after sudden quench, h=0 to small)](## 1D transverse field Ising model (after sudden quench, h=0 to small))
-* [1D transverse field Ising model (after sudden quench, h=inf to small)](## 1D transverse field Ising model (after sudden quench, h=inf to small))
-* [1D transverse field Ising model (slow quench)](## 1D transverse field Ising model (slow quench))
-* [2D transverse field Ising model (after sudden quench, h=inf to small)](## 2D transverse field Ising model (after sudden quench, h=inf to small))
+* [1D transverse field Ising model](#1d-transverse-field-ising-model)
+* [2D transverse field Ising model](#2d-transverse-field-ising-model)
 
 ----
 
-## 1D transverse field Ising model (after sudden quench, h=0 to small)
+# 1D transverse field Ising model
+## after sudden quench, h=0 to small
 * Usage
   ```console
   foo@bar:~$ python quench_dynamics_1d_FM_TFIsing.py -N [system size]
@@ -37,7 +36,7 @@
 ![logarithmic Loschmidt echo](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_1d_FM_TFIsing__field_0_to_small/fig_loschmidt_echo.png "logarithmic Loschmidt echo")
 
 
-## 1D transverse field Ising model (after sudden quench, h=inf to small)
+## after sudden quench, h=inf to small
 * Usage
   ```console
   foo@bar:~$ python quench_dynamics_1d_FM_TFIsing.py -N [system size]
@@ -57,7 +56,7 @@
 ![nearest neighbor spin correlation (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_1d_FM_TFIsing__field_inf_to_small/fig_mz0mz1_vs_t.png "nearest neighbor spin correlation (Ising direction)")
 
 
-## 1D transverse field Ising model (slow quench)
+## slow quench
 * Usage
   ```console
   foo@bar:~$ python slow_dynamics_1d_FM_TFIsing.py -N [system size] -tau [total time]
@@ -91,7 +90,8 @@
 ![scaling of kink density 2](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/slow_dynamics_1d_FM_TFIsing__field_large_to_0/dat_kinkdens_scaling/fig_kinkdens_vs_tau_loglog.png "scaling of kink density 2")
 
 
-## 2D transverse field Ising model (after sudden quench, h=inf to small)
+# 2D transverse field Ising model
+## after sudden quench, h=inf to small
 * Usage
   ```console
   foo@bar:~$ python quench_dynamics_2d_FM_TFIsing.py -Lx [size Lx] -Ly [size Ly] -hi [initial field] -hf [final field] -tau [total time]
