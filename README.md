@@ -115,6 +115,7 @@
 * Other references
   * https://doi.org/10.1038/srep38185 (VMC)
   * https://arxiv.org/abs/1811.09275 (MPS)
+  * https://arxiv.org/abs/1910.10726 (MPS, triangular TFI)
   * https://arxiv.org/abs/1912.08831 (neural networks, time evolution error)
   * (https://doi.org/10.21468/SciPostPhys.6.3.031 (iPEPS, Heisenberg+field))
 
