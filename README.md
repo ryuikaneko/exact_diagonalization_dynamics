@@ -47,6 +47,26 @@
 ![nearest neighbor spin correlation (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_1d_FM_TFIsing__field_inf_to_small/fig_mz0mz1_vs_t.png "nearest neighbor spin correlation (Ising direction)")
 
 
+## 2D transverse field Ising model (after sudden quench, h=inf to small)
+* Usage
+  ```console
+  foo@bar:~$ python quench_dynamics_2d_FM_TFIsing.py -Lx [size Lx] -Ly [size Ly] -hi [initial field] -hf [final field] -tau [total time]
+  ```
+  Model: H(t) = - (\sum\_{i} \sigma\_i^z \sigma\_{i+1}^z + h(t) \sum\_{i} \sigma\_i^x) <br>
+  Field: h(t=0)=inf --> h(t>0)=0.1 <br>
+  The result for the system size N=4x4 is shown as an example.
+  
+* References
+  
+  * https://doi.org/10.21468/SciPostPhys.4.2.013 (See Fig.2 for comparison, note that h'/J'=0.05 <--> h/J=0.1 where J'/4=J and h'/2=h)
+  
+* Results
+
+![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/fig_mx.png "magnetization (field direction)")
+
+![nearest neighbor spin correlation (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/fig_mz0mz1.png "nearest neighbor spin correlation (Ising direction)")
+
+
 ## 1D transverse field Ising model (slow quench)
 * Usage
   ```console
