@@ -118,6 +118,6 @@
 
 * Results
 
-![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/fig_mx.png "magnetization (field direction)")
+![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_0.1/fig_mx.png "magnetization (field direction)")
 
-![nearest neighbor spin correlation (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/fig_mz0mz1.png "nearest neighbor spin correlation (Ising direction)")
+![nearest neighbor spin correlation (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_0.1/fig_mz0mz1.png "nearest neighbor spin correlation (Ising direction)")
