@@ -3,7 +3,7 @@
 # contents
 
 * [1D transverse field Ising model](#1d-transverse-field-ising-model)
-  * [after sudden quench h=0 to small](#1DTFI-h-0-to-small)
+  * [after sudden quench, h=0 to small](#1DTFI-h-0-to-small)
   * [after sudden quench, h=inf to small](#1DTFI-h-inf-to-small)
   * [slow quench](#1DTFI-slow-quench)
 * [2D transverse field Ising model](#2d-transverse-field-ising-model)
