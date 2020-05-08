@@ -1,0 +1,32 @@
+## Sei Suzuki et al., Quantum Ising Phases and Transitions in Transverse Ising Models
+##
+## 1D: expo=0.5
+#d=1.0
+#z=1.0
+#nu=1.0
+#expo=d*nu/(z*nu+1)
+##
+## 2D: expo=0.07005320863 (since nu~0, d*nu/(z*nu+1) ~ d*nu = 2*nu)
+d=2.0
+z=1.0
+nu=0.036298
+expo=d*nu/(z*nu+1)
+
+#----
+
+set term png
+set output "fig_kinkdens_vs_tau_loglog.png"
+
+#set xrange [0:0.5]
+#set yrange [0:]
+set log
+set xlabel "tau"
+set ylabel "kink density"
+set key left bottom at graph 0.1,0.05
+set key invert
+
+p \
+"dat_kinkdens_L3" u 2:3 ti "3", \
+"dat_kinkdens_L4" u 2:3 ti "L=4", \
+0.5*x**(-expo) ti "exponent: -d*nu/(z*nu+1)"
+#0.5*x**(-expo) ti "{/Symbol \265}tau^{-d*nu/(z*nu+1)}"
