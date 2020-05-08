@@ -15,5 +15,7 @@ p \
 "dat_kinkdens_N10" u (1/$2):3 ti "10", \
 "dat_kinkdens_N12" u (1/$2):3 ti "12", \
 "dat_kinkdens_N14" u (1/$2):3 ti "14", \
-"dat_kinkdens_N16" u (1/$2):3 ti "N=16", \
-0.16*x**(0.5) ti "~1/sqrt(tau)"
+"dat_kinkdens_N16" u (1/$2):3 ti "16", \
+"dat_kinkdens_N18" u (1/$2):3 ti "18", \
+"dat_kinkdens_N20" u (1/$2):3 ti "N=20", \
+(0.5/pi)*x**(0.5) ti "~1/sqrt(tau)"
