@@ -211,7 +211,7 @@ def main():
     mz = [(np.dot(np.conjugate(ret[i]),Op_Mz.dot(ret[i])) / np.dot(np.conjugate(ret[i]),ret[i])).real for i in range(Nsteps)]
     mx_stag = [(np.dot(np.conjugate(ret[i]),Op_Mx_stag.dot(ret[i])) / np.dot(np.conjugate(ret[i]),ret[i])).real for i in range(Nsteps)]
     mz_stag = [(np.dot(np.conjugate(ret[i]),Op_Mz_stag.dot(ret[i])) / np.dot(np.conjugate(ret[i]),ret[i])).real for i in range(Nsteps)]
-    loschmidt_echo = [(np.abs(np.dot(np.conjugate(ret[i]),ret[0]))**2 / np.dot(np.conjugate(ret[i]),ret[i])*np.dot(np.conjugate(ret[0]),ret[0])).real for i in range(Nsteps)]
+    loschmidt_echo = [(np.abs(np.dot(np.conjugate(ret[i]),ret[0]))**2 / np.dot(np.conjugate(ret[i]),ret[i]) / np.dot(np.conjugate(ret[0]),ret[0])).real for i in range(Nsteps)]
     print("ene0",ene0)
     print("ene",ene)
     print("mz0mz1",mz0mz1)
