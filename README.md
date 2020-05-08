@@ -155,6 +155,24 @@
   Field: h(t)=hi+(hf-hi)\*t/tau (hi=2\*hc, hf=0, hc=3.04438) <br>
   The result for the system size N=4x4 and the total time tau=32 is shown as an example.
 
+* Related references
+  * Kibble-Zurek
+    * https://doi.org/10.1088/0305-4470/9/8/029
+    * https://doi.org/10.1016/0370-1573(80)90091-5
+    * https://doi.org/10.1038/317505a0
+    * https://www.actaphys.uj.edu.pl/R/24/7/1301 https://www.actaphys.uj.edu.pl/R/24/7/1301/pdf
+    * https://doi.org/10.1016/S0370-1573(96)00009-9
+  * dynamics by QMC (real time dynamics ~ imaginary time dynamics when v=1/tau << 1)
+    * http://indico.ictp.it/event/a14246/session/17/contribution/28/material/6/0.pdf http://physics.bu.edu/~sandvik/trieste15/sandvik4.pdf
+    * https://doi.org/10.1103/PhysRevB.84.224303
+    * https://doi.org/10.1088/0953-8984/25/40/404216
+    * https://doi.org/10.1103/PhysRevB.87.174302
+  * QA
+    * https://arxiv.org/abs/2001.11637 (scaling in D-dimensions: kink density, higher order cumulants: see references therein)
+    * http://hdl.handle.net/2433/142655
+    * http://hdl.handle.net/2433/110379 (scaling of residual energy)
+    * https://www.smapip.is.tohoku.ac.jp/~dex-smi/2006/Workshop200612/ExtendedAbstracts/SeiSuzuki.pdf
+
 * Results
 
 ![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/slow_dynamics_2d_FM_TFIsing__field_large_to_0/fig_mx.png "magnetization (field direction)")
