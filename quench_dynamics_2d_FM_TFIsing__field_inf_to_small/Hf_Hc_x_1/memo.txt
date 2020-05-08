@@ -1,1 +1,1 @@
-python quench_2d_h_inf_to_small.py -hf 3.04438 -tau 1.0 > dat_N4x4_hf3.04438_tau1.0
+python quench_dynamics_2d_FM_TFIsing.py -hf 3.04438 -tau 1.0 > dat_N4x4_hf3.04438_tau1.0
