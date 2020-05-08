@@ -8,6 +8,7 @@
   * [slow quench](#1DTFI-slow-quench)
 * [2D transverse field Ising model](#2d-transverse-field-ising-model)
   * [after sudden quench, h=inf to small](#2DTFI-h-inf-to-small)
+  * [slow quench](#2DTFI-slow-quench)
 
 ----
 
@@ -144,3 +145,18 @@
 ![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_Hc_x_2/fig_mx.png "magnetization (field direction)")
 
 ![nearest neighbor spin correlation (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/quench_dynamics_2d_FM_TFIsing__field_inf_to_small/Hf_Hc_x_2/fig_mz0mz1.png "nearest neighbor spin correlation (Ising direction)")
+
+## slow quench <a name="2DTFI-slow-quench"></a>
+* Usage
+  ```console
+  foo@bar:~$ python slow_dynamics_2d_FM_TFIsing.py -Lx [size Lx] -Ly [size Ly] -hi [initial field] -hf [final field] -tau [total time]
+  ```
+  Model: H(t) = - (\sum\_{i} \sigma\_i^z \sigma\_{i+1}^z + h(t) \sum\_{i} \sigma\_i^x) <br>
+  Field: h(t)=hi+(hf-hi)\*t/tau (hi=2\*hc, hf=0, hc=3.04438) <br>
+  The result for the system size N=4x4 and the total time tau=32 is shown as an example.
+
+* Results
+
+![magnetization (field direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/slow_dynamics_2d_FM_TFIsing__field_large_to_0/fig_mx.png "magnetization (field direction)")
+
+![nearest neighbor spin correlation (Ising direction)](https://raw.githubusercontent.com/ryuikaneko/exact_diagonalization_dynamics/master/slow_dynamics_2d_FM_TFIsing__field_large_to_0/fig_mz0mz1.png "nearest neighbor spin correlation (Ising direction)")
