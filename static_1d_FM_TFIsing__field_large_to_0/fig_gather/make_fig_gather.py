@@ -52,7 +52,7 @@ for file_name in all_files:
 
 list_enedens = []
 for i in range(len(list_N)):
-    list_enedens.append([x/list_N[i] for x in list_ene[i]])
+    list_enedens.append(np.array([x/list_N[i] for x in list_ene[i]],dtype=np.float))
 
 print("h",list_h)
 for i in range(len(list_N)):
