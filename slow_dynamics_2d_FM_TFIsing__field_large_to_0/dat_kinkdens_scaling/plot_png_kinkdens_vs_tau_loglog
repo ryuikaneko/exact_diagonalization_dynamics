@@ -22,11 +22,12 @@ set output "fig_kinkdens_vs_tau_loglog.png"
 set log
 set xlabel "tau"
 set ylabel "kink density"
-set key left bottom at graph 0.1,0.05
+set key left bottom at graph 0.05,0.05
 set key invert
 
 p \
 "dat_kinkdens_L3" u 2:3 ti "3", \
 "dat_kinkdens_L4" u 2:3 ti "L=4", \
-0.5*x**(-expo) ti "exponent: -d*nu/(z*nu+1)"
+0.5*x**(-expo) ti "exponent: -d*nu/(z*nu+1) (Kibble-Zurek)", \
+0.5*x**(-2) ti "~1/tau^2 (adiabatic limit)"
 #0.5*x**(-expo) ti "{/Symbol \265}tau^{-d*nu/(z*nu+1)}"
