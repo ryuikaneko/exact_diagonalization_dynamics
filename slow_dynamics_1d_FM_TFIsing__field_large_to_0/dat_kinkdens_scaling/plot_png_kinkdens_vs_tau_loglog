@@ -6,7 +6,7 @@ set output "fig_kinkdens_vs_tau_loglog.png"
 set log
 set xlabel "tau"
 set ylabel "kink density"
-set key left bottom at graph 0.1,0.05
+set key left bottom at graph 0.08,0.05
 set key invert
 
 p \
@@ -19,4 +19,5 @@ p \
 "dat_kinkdens_N16" u 2:3 ti "16", \
 "dat_kinkdens_N18" u 2:3 ti "18", \
 "dat_kinkdens_N20" u 2:3 ti "N=20", \
-(0.5/pi)*x**(-0.5) ti "~1/sqrt(tau)"
+(0.5/pi)*x**(-0.5) ti "~1/sqrt(tau) (Kibble-Zurek)", \
+(0.5/pi)*x**(-2) ti "~1/tau^2 (adiabatic limit)"
