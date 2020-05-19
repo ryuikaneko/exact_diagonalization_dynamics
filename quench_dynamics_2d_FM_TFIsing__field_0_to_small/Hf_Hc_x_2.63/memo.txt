@@ -1,0 +1,1 @@
+python quench_dynamics_2d_FM_TFIsing.py -hf 8.0067194 -tau 2.0 > dat_N4x4_hf8.0067194_tau2.0
