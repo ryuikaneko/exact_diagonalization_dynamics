@@ -121,6 +121,7 @@
   * https://arxiv.org/abs/1910.10726 (MPS, triangular TFI)
   * https://arxiv.org/abs/1912.08831 (neural networks, time evolution error)
   * (https://doi.org/10.21468/SciPostPhys.6.3.031 (iPEPS, Heisenberg+field))
+  * (https://doi.org/10.21468/SciPostPhys.8.2.021 (iPEPS, t-J))
 
 * Results (h(t=0)=inf --> h(t>0)=0.1)
 
